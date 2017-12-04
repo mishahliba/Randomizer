@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<assembly>
+    <id>randomizer-jar</id>
+    <formats>
+        <format>jar</format>
+    </formats>
+
+    <dependencySets>
+        <dependencySet>
+            <scope>runtime</scope>
+            <unpack>true</unpack>
+            <unpackOptions>
+                <excludes>
+                    <exclude>**/LICENSE*</exclude>
+                    <exclude>**/README*</exclude>
+                </excludes>
+            </unpackOptions>
+        </dependencySet>
+    </dependencySets>
+</assembly>
